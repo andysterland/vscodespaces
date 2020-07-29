@@ -40,7 +40,7 @@ The table below lists the applications and features available in all Windows Cod
 | Docker Desktop                              | docker     | 19.03              |
 | Git                                         | git        | 2.26               |
 | Microsoft build                             | msbuild    | 16.7               |
-| Microsoft SQL Server Developer Edition 2019 | N/A        | 15.0               |
+| Microsoft SQL Server Express Edition 2019   | N/A        | 15.0               |
 | Ninja                                       | ninja      | 1.8.2              |
 | Node.js                                     | node       | 12.16              |
 | NPM                                         | npm        | 6.14               |
@@ -52,10 +52,7 @@ The list above is not exhaustive and excludes many tools that Visual Studio inst
 
 ## Microsoft SQL Server
 
-Microsoft SQL Server 2019 Developer Edition is available and running as a local service (SQLServer) in the Windows Codespace environment. The current user, which your app and the Visual Studio Terminal run as, has SQL administrator rights to the SQL server. To administer the server you will need to use PowerShell in the Visual Studio Terminal or other command line tools such as `dotnet-ef`. Currently SQL Server Management Studio and other remote administration tools are not available.
-
-> [!NOTE]
-> SQL Server Express Edition (localdb) is also available in all Windows Codespace environments.
+Microsoft SQL Server Express Edition (localdb) is available in the Windows Codespace environment. The current user, which your app and the Visual Studio Terminal run as, has SQL administrator rights to the SQL server. To administer the server you will need to use PowerShell in the Visual Studio Terminal or other command line tools such as `dotnet-ef`. Currently SQL Server Management Studio and other remote administration tools are not available.
 
 ### Example connection string
 
